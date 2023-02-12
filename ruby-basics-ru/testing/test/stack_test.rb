@@ -45,7 +45,7 @@ class StackTest < Minitest::Test
 
     stack.clear!
 
-    asert stack.empty?
+    assert stack.empty?
   end
   # END
 end
